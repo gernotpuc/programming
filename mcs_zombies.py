@@ -57,4 +57,6 @@ def monte_carlo():
                  "after each Simulation Step", fontsize=10)
     plt.title("MCS Runs: {}, Avg. Human Survival Rate: {}%, "
               "Avg. Zombie Development: {}%".format(MCS_RUNS,s_rate, z_rate), fontsize=10)
+    plt.ylabel("Number of agents [n]", fontsize=10)
+    plt.xlabel("Simulation step [n]", fontsize=10)
     plt.show()
